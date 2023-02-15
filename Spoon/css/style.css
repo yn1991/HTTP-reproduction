@@ -1,0 +1,259 @@
+body {
+  font-family:"ヒラギノ丸ゴ Pro W4",
+    "Hiragino maru Gothic Pro",
+    "HG丸ｺﾞｼｯｸM-PRO",
+    "Verdana",
+    "Osaka",
+    sans-serif;
+  background-color: #FFFCF8;
+}
+
+.header_line {
+  width: 100%;
+  height: 10px;
+  background-color: #4EC0F2;
+}
+
+.wrapper {
+  width: 100%;
+}
+
+.wrapper_inner {
+  width: 960px;
+  margin: 0 auto;
+}
+
+.header {
+  position: relative;
+  padding: 60px 0;
+}
+
+.phone_number {
+  position: absolute;
+  top : 10%;
+  left: 80%;
+}
+
+.phone_icon {
+  color: #4EC0F2;
+  margin: 0 7px 0 3px;
+}
+
+.content {
+  display: flex;
+  flex-direction: row;
+}
+
+.left {
+  width: 30%;
+}
+
+.content_link {
+  border: 1px #4EC0F2 solid;
+  margin-bottom:  10px;
+  border-radius: 7px;
+}
+
+.content_link_ul {
+  list-style: none;
+  padding: 0 23px;
+}
+
+.content_a {
+  text-decoration: none;
+  color: #000
+}
+
+.nav_icon {
+  color: #FFC612;
+  margin: 0 7px 0 3px;
+}
+
+.content_link_list:not(:last-of-type) {
+  padding: 20px 0; 
+  border-bottom: 1px #4EC0F2 dashed;
+  font-size: 14px;
+}
+
+.content_link_list:last-of-type {
+  padding: 20px 0;
+  font-size: 14px;
+}
+
+.fa-chevron-right:before {
+  content: "\f054";
+}
+
+.schedule {
+  border: 1px #4EC0F2 dotted;
+  margin-bottom: 10px;
+  padding: 22px;
+  border-radius: 7px;
+}
+
+.schedule_today {
+  padding-bottom: 10px;
+  border-bottom: 1px #4EC0F2 dashed;
+  margin-bottom: 10px;
+}
+
+.circle-icon {
+  font-size: 10px;
+  margin: 0 7px 0 3px;
+  color: #4EC0F2;
+}
+
+.counter {
+  border: 1px #4EC0F2 dotted;
+  margin-bottom: 10px;
+  padding: 22px;
+  border-radius: 7px;
+}
+
+.counter_item {
+  padding-bottom: 10px;
+  border-bottom: 1px #4EC0F2 dashed;
+  margin-bottom: 20px;
+}
+
+.site {
+  border: 1px #4EC0F2 dotted;
+  margin-bottom: 10px;
+  padding: 22px;
+  border-radius: 7px;
+}
+
+.site_item {
+  padding-bottom: 10px;
+  border-bottom: 1px #4EC0F2 dashed;
+  margin-bottom: 20px;
+}
+
+.site_qrcode {
+  width: 100px;
+  height: 100px;
+}
+
+.picture {
+  margin: 0 0 40px 0;
+  text-align: right;
+}
+
+.picture_img {
+  width: 85%;
+  height: 85%;
+  border-radius: 7px;
+}
+
+.greet {
+  border: 1px #4ec0F2 dotted;
+  background-color: #FFF;
+  padding: 20px;
+  margin-bottom: 30px;
+  margin-left: 15%;
+  border-radius: 7px;
+
+}
+
+.greet_title {
+  border-left: 4px #4ec0F2 solid;
+  line-height: 33px;
+  padding-left: 13px;
+  font-size: 14px;
+}
+
+.greet_border {
+  border-bottom: 1px #4ec0F2 dotted;
+  margin: 12px 0 20px 0;
+} 
+
+.greet_coment {
+  font-size: 12px;
+}
+
+.news {
+  border: 1px #4ec0F2 dotted;
+  background-color: #FFF;
+  padding: 20px;
+  margin-bottom: 30px;
+  margin-left: 15%;
+  border-radius: 7px;
+}
+
+.news_title {
+  border-left: 4px #4ec0F2 solid;
+  line-height: 33px;
+  padding-left: 13px;
+  font-size: 14px;
+}
+
+.news_border {
+  border-bottom: 1px #4ec0F2 dotted;
+  margin: 12px 0 20px 0;
+}
+
+.news_coment {
+  font-size: 12px;
+}
+
+.news_date {
+  color: #4ec0F2;
+  margin: 0 7px 0 0;
+}
+
+.news_link {
+  text-decoration: none;
+  color: #000
+}
+
+#footer {
+  background-color: #4EC0F2;
+  padding: 40px 0 20px 0;
+  margin: 30px 0 0 0;
+}
+
+.footer_inner {
+  width: 960px;
+  margin: 0 auto;
+}
+
+.footer_img {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.footer_nav {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.footer_link_list {
+  display: inline-block;
+  padding: 10px 5px;
+}
+
+.footer_a {
+  text-decoration: none;
+  color: #FFF;
+  font-size: 12px;
+}
+
+.footer_link_ex {
+  text-align: center;
+  font-size: 32px;
+  margin-bottom: 30px;
+}
+
+.externel_link {
+  text-decoration: none;
+  color: #FFF;
+}
+
+.copyright {
+  text-align: center;  
+}
+
+.copyright_coment {
+  font-size: 10px;
+  color: #FFF;
+}
